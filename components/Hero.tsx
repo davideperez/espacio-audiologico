@@ -9,9 +9,9 @@ const Hero = () => {
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
         <div>
-          {/* <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+          <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
             <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-              <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+              {/* <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <a href="#">
                     <span className="sr-only">Workflow</span>
@@ -37,9 +37,9 @@ const Hero = () => {
                 <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Company</a>
   
                 <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
-              </div>
+              </div> */}
             </nav>
-          </div> */}
+          </div>
   
           {/* <div className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
             <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
@@ -67,8 +67,8 @@ const Hero = () => {
               </div>
               <a href="#" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"> Log in </a>
             </div>
-          </div>
-        </div> */}
+          </div> */}
+        </div>
   
         <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div className="sm:text-center lg:text-left">
@@ -92,7 +92,6 @@ const Hero = () => {
     <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="" />
     </div>
-  </div>
   </div>
   )
 }

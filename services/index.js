@@ -50,7 +50,7 @@ export const getCategories = async () => {
   `;
 
   const result = await request(graphqlAPI, query);
-
+    
   return result.categories;
 };
 
